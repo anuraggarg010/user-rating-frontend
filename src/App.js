@@ -10,11 +10,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Define your routes using the 'Route' component */}
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/products" element={<ProductList />} />
-        {/* Add more routes as needed */}
       </Routes>
     </Router>
   );
